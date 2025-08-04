@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const feedbackDiv = document.getElementById("form-feedback");
 
   form.addEventListener("submit", function (event) {
-    event.preventDefault();
+    event.preventDefault(); 
 
     const username = document.getElementById("username").value.trim();
     const email = document.getElementById("email").value.trim();
